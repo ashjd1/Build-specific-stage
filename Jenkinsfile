@@ -1,7 +1,7 @@
 pipeline {
     agent any
     stages{
-        stage('stage 1'){
+        stage('Stage 1'){
             when {
                 expression { choice == '1' }
             }
